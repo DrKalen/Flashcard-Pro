@@ -8,7 +8,7 @@ class StackList extends Component {
                 {
                     stacks.map(stack => {
                         return (
-                            <h4>{stack.title}</h4>
+                            <h4 key={stack.id}>{stack.title}</h4>
                         )
                     })
                 }
